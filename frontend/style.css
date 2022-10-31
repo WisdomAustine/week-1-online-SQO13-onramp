@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 100vw;
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-section {
+    padding: 0 40px 100px;
+    background-color: #D7F5F5;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+
+.header-text {
+    font-size: 3rem;
+    padding: 40px 10px;
+}
+
+.cards {
+    padding: 30px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-self: flex-start;
+}
+
+.cards > p {
+    padding-top: 5px;
+}
+
+.avatar > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.avatar-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.avatar-wrapper {
+    display: flex;
+    column-gap: 10px;
+}
+
+.displayname {
+    white-space: nowrap;
+}
+
+.username-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-icon > img {
+    width: 50px;
+    height: 50px;
+}
+
+.reaction-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.like > img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-section {
+    padding: 50px 20px;
+}
+
+.bottom-header {
+    text-align: center;
+}
+
+.bottom-text {
+    color: gray;
+    padding: 10px 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.trial-card {
+    background-color: #FBF8F3;
+    border: solid 1px #FFAA00;
+    padding: 30px 40px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trial-text-header {
+    font-size: 20px;
+    color: #606162;
+}
+
+.trial-text {
+    font-size: 14px;
+    color: #606162;
+}
+
+.trial-fee {
+    font-size: 50px;
+    color: #000;
+}
+
+.trial-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #01ACEE;
+    color: #fff;
+}
+
+.trial-btn > img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+}
+
+.trial-btn > span {
+    margin-left: 10px;
+}
+
+hr {
+    margin-bottom: 45px;
+}
+
+.offers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.offers > img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
